@@ -1,0 +1,84 @@
+
+/*******************
+	General styling
+*******************/
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.wrapper {
+	text-align: center;
+	margin: 0 auto;
+	min-width: 500px;
+	max-width: 50%;
+}
+
+form {
+	background: #b33;
+	padding: 4em 3em;
+	margin-top: 1em;
+	border-radius: 30px 10px 30px 10px;
+	color: #fff;
+	text-shadow: 2px 2px 5px #333;
+	box-shadow: 2px 2px 2px #999;
+	border-top: 7px solid lightblue;
+}
+
+input, legend, button, label, textarea {
+	display: block;
+	margin: 0 auto;
+	margin-top: .5em;
+}
+
+legend {
+	margin-bottom: 1.25em;
+}
+
+
+input, textarea {
+	width: 80%;
+	padding: .75em 0;
+	font-size: 1em;
+	border-radius: 25px;
+	text-indent: 5%;
+	color: #333;
+	outline: none;
+}
+
+button {
+	margin-top: 2em;
+	background-color: #181;
+	border: none;
+	color: #fff;
+	padding: .5em 1em;
+	border-radius: 5px;
+	border-bottom: 1px solid #111;
+}
+
+.underline {
+	text-decoration: none;
+	border-bottom: 3px solid #fff;
+	padding-bottom: 3px;
+}
+
+.error {
+	background: orange;
+	color: white;
+	padding: 1em;
+	margin-top: .5em;
+	border-radius: 20px;
+}
+.focusMessage {
+	background: #292;
+	color: white;
+	padding: 1em;
+	margin-top: .5em;
+	border-radius: 20px;
+}
